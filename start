@@ -1,0 +1,8 @@
+#!/bin/bash
+
+xterm -e bash -c "python3 Lsr.py configA.txt" &
+xterm -e bash -c "python3 Lsr.py configB.txt" &
+xterm -e bash -c "python3 Lsr.py configC.txt" &
+xterm -e bash -c "python3 Lsr.py configD.txt" &
+xterm -e bash -c "python3 Lsr.py configE.txt" &
+xterm -e bash -c "python3 Lsr.py configF.txt"
